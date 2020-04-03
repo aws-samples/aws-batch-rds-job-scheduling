@@ -3,12 +3,10 @@ Description: 'Cloudformation for provisioning service required to schedule and e
 Parameters:
   Subnet:
     Type: String
-    #Default: "subnet-159bfd2f, subnet-28c6ee6e, subnet-2d464859, subnet-6edcbc0b, subnet-8eefa7a6, subnet-90ef629c"
-    Default: "subnet-223f7e0c, subnet-16556919, subnet-e93176b5, subnet-39b63807, subnet-f3757fb9, subnet-832953e4"
+    Default: "subnet-xxxxxxxx, subnet-xxxxxxxx, subnet-xxxxxxxx, subnet-xxxxxxxx, subnet-xxxxxxxx, subnet-xxxxxxxx"
   SecurityGroup:
     Type: String
-    #Default: "sg-4317c126"
-    Default: "sg-bf1100f9"
+    Default: "sg-xxxxxxxx"
 Resources:
 
   # Oracle RDS Instance
