@@ -9,6 +9,8 @@ In this blog post, we demonstrate how to use the combination of AWS Batch and Cl
 dynamically provision resources, schedule and execute function or stored procedures on Amazon
 Relational Database Service (RDS).
 
+![Alt text](schedule%20and%20execute%20RDS%20jobs%20using%20AWS%20Batch%20and%20CloudWatch%20rules.png?raw=true "Title")
+
 Please follow the blog post to schedule jobs and test in you account.
 
 ## Prerequisites 
