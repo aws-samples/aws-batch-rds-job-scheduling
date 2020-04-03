@@ -33,22 +33,18 @@ Please follow the blog post to schedule jobs and test in you account.
 ## Clone source code from AWS samples 
     Download the files required to set up the environment. 
 
-    ```
     $ git clone https://github.com/aws-samples/aws-batch-rds-job-scheduling
     $ cd aws-batch-rds-job-scheduling
 
-    ```
 
 ## Deploy the AWS CloudFormation template
     Execute the CloudFormation template to provision required services. 
 
-    ```
     $ aws cloudformation create-stack --stack-name batchjob --template-body file://batchenv-cf.yaml --capabilities CAPABILITY_NAMED_IAM --region us-east-1
     {
         "StackId": "arn:aws:cloudformation:us-east-1:XXXXXXXXXXXXXX:stack/batchjob/73448940-63c5-11ea-918d-1208f0f76cbf"
     }
     
-    ```
 
 ## Testing
 
@@ -63,10 +59,9 @@ Please follow the blog post to schedule jobs and test in you account.
 
     Alternatively, run this command in AWS CLI to delete the job:
 
-    ```
     $ aws cloudformation delete-stack --stack-name batchjob
 
-    ```
+
 ## License
 
     This library is licensed under the MIT-0 License. See the LICENSE file.
