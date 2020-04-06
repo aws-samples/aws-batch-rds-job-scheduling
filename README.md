@@ -54,9 +54,9 @@ Please follow the blog post to schedule jobs and test in you account.
 ## Code Cleanup
 
     To clean up, delete the contents of the Amazon S3 bucket and Amazon ECR repository.
-
-    In the AWS Management Console, navigate to your CloudFormation stack “batch-processing-job” and delete it.
-
+    
+    In the AWS Management Console, navigate to your CloudFormation stack "batchjob" and delete it.
+    
     Alternatively, run this command in AWS CLI to delete the job:
 
     $ aws cloudformation delete-stack --stack-name batchjob
