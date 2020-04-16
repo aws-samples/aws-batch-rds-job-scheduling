@@ -1,6 +1,6 @@
-drop table emp;
-drop table dept;
-drop function low_high_salaries;
+--drop table emp;
+--drop table dept;
+--drop function low_high_salaries;
 
 create table dept(  
   deptno     integer,  
